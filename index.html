@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice task</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="section">
+        <h1 class="header">My text editor</h1>
+        <div class="second-section">
+            <div class="letter">
+                <div class="letter-icon">
+                    <a href="#" onclick="Bold()"><i class="fa-solid fa-b" style="color: #ffffff;"></i></a>
+                <a href="#" onclick="italic()" ><i class="fa-solid fa-italic" style="color: #ffffff;"></i></a>
+                <a href="#" onclick="underline()" ><i class="fa-solid fa-underline" style="color: #ffffff;"></i></a>
+                </div>
+                <div class="icon">
+                    <a href="#" id="left"><i class="fa-solid fa-align-left" style="color: #ffffff;"></i></a>
+                <a href="#" id="center"><i class="fa-solid fa-align-center" style="color: #ffffff;"></i></a>
+                <a href="#" id="right"><i class="fa-solid fa-align-right" style="color: #ffffff;"></i></a>
+                <a href="#" id="normal"><i class="fa-solid fa-align-justify" style="color: #ffffff;"></i></a>
+                </div>
+                <input type="number" class="input-number" id="number">
+                <input type="color"  class="input" id="color">
+                
+                <div class="border">
+
+                </div>
+            </div>
+            <div>               
+                <textarea name="" id="text"  class="textarea" cols="80" rows="17"></textarea>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="java.js"></script>
+</body>
+</html>
